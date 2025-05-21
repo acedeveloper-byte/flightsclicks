@@ -1,42 +1,237 @@
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-html,
-body {
-  max-width: 100vw;
-  overflow-x: hidden;
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-* {
-  box-sizing: border-box;
-  padding: 0;
+*{
   margin: 0;
+  padding: 0;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+        .location-icon {
+          position: absolute;
+          left: 15px !important;
+          top: 40px !important;
+          color: red; /* red pin */
+          pointer-events: none;
+          font-size: 1.2rem;
+        }
+        select {
+          padding-left: 2rem !important;
+           border-bottom: 3px solid red !important;
+        }
+
+
+        select:focus {
+  border: none !important;
+  box-shadow: none !important;
+  outline: none !important;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
+ .input-icon {
+          position: absolute !important;
+          left: 15px !important;
+          top: 40px !important;
+          color: red !important; /* Red */
+          font-size: 1.2rem !important;
+          pointer-events: none !important;
+        }
+
+        .custom-input {
+          border: none;
+          border-bottom: 3px solid red !important;
+          border-radius: 0 !important;
+          padding-left: 2rem !important;
+          box-shadow: none !important;
+          outline: none !important;
+          background-color: transparent !important;
+        }
+
+        .custom-input:focus {
+          border: none;
+          border-bottom: 3px solid red;
+          box-shadow: none !important;
+          outline: none !important;
+        }
+      
+     .search-btn{
+      background: red !important; 
+    border: none !important;
+     }
+
+     .search-btn:hover{
+      color: red !important;
+      background-color: #fff !important;
+      border: 1px solid red !important;
+     }
+
+
+
+     .main-form{
+          /* border: 1px solid red; */
+    position: relative;
+    top: -25rem;
+    z-index: 9999;
+    /* background: #fff; */
+     }
+
+     .form-layout-container{
+      background-color: #ffffffd1;
+         padding: 2rem;
+         border-radius: 2rem;
+     }
+
+
+     .title{
+          color: #fff;
+    font-size: 42px;
+    font-weight: 900;
+    margin-top: 2rem;
+     }
+
+     .para-home{
+      color: #fff;
+    font-size: 20px;
+     }
+
+
+     .explore-deals{
+     margin-top: -20rem;
+     }
+
+
+
+
+.crumbs {
+  background: #0000008a;
+    padding: 10px;
+    border-radius: 16px;
+    margin-top : 150px;
+  }
+
+  #about-page-section {
+    padding : 10%
+  }
+
+
+  #privacy-page-section {
+    padding : 10%
+
+  }
+
+
+  #terms-page-section {
+    padding : 10%
+
+  }
+
+
+  .tg-contact-info-wrap {
+  border: 1px solid #e8e8e8;
+  border-radius: 30px;
+  background: var(--tg-grey-5);
+  padding: 46px 50px 40px 50px;
+}
+@media (max-width: 575px) {
+  .tg-contact-info-wrap {
+    padding: 26px 30px 20px 30px;
   }
 }
+.tg-contact-info-wrap .tg-team-details-contact {
+  display: block;
+}
+.tg-contact-info-wrap .item {
+  margin-bottom: 14px;
+}
+.tg-contact-map iframe {
+  width: 100%;
+  height: 227px;
+  filter: saturate(0);
+  border: 1px solid var(--tg-common-white);
+  border-radius: 20px;
+}
+.tg-contact-title {
+  font-weight: 600;
+  font-size: 36px;
+  text-transform: capitalize;
+  color: var(--tg-common-black);
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
+  .tg-contact-title br {
+    display: none;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
+  .tg-contact-content-wrap {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+.tg-contact-content-wrap p {
+  line-height: 26px;
+  text-transform: capitalize;
+}
+.tg-contact-form .input, .tg-contact-form .textarea {
+  border: 1px solid #e1e1e1;
+  border-radius: 8px;
+  background: transparent;
+  height: 45px;
+}
+.tg-contact-form .textarea {
+  height: 140px;
+}
+
+/*=============================
+    	12. error
+===============================*/
+.tg-error-content h2 {
+  font-size: 50px;
+}
+.tg-error-content p {
+  font-weight: 400;
+  font-size: 24px;
+  color: var(--tg-grey-1);
+}
+.tg-error-btn .tg-btn {
+  font-weight: 600;
+  font-size: 15px;
+  text-transform: capitalize;
+}
+.tg-error-spacing {
+  padding-top: 237px;
+  padding-bottom: 245px;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px) {
+  .tg-error-spacing {
+    padding-top: 200px;
+    padding-bottom: 210px;
+  }
+}
+@media (max-width: 575px) {
+  .tg-error-spacing {
+    padding-top: 140px;
+    padding-bottom: 150px;
+  }
+}
+
+/*=============================
+    	30. login
+===============================*/
+.tg-login-wrapper {
+  padding: 100px 85px 100px;
+  background: var(--tp-common-white);
+  box-shadow: 0px 30px 60px rgba(3, 4, 28, 0.1);
+}
+@media (max-width: 575px) {
+  .tg-login-wrapper {
+    padding: 50px 25px 50px;
+  }
+}
+.tg-login-top h2 {
+  font-size: 34px;
+  letter-spacing: -0.04em;
+  margin-bottom: 6px;
+}
+.tg-login-navigate a {
+  text-decoration: underline;
+  font-size: 15px;
+  text-transform: capitalize;
+  color: var(--tg-common-black);
+}
+
+   
