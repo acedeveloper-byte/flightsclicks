@@ -31,7 +31,7 @@ const page = () => {
                                     </li>
                                     <li class="mb-0">
                                         <strong>Address:</strong> <br />
-                                        <span>3424 Holly Hill Pkwy, Ellenwood, GA 30294-6523, DEKALB</span>
+                                        <span>168 Great Portland Street <br /> London, W1W 5PF</span>
                                     </li>
                                 </ul>
                             </div>
