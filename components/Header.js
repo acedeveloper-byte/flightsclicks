@@ -40,14 +40,14 @@ const Header = () => {
           </Nav>
 
           {/* Right-Aligned Button */}
-          {/* <div className="ms-5">
-  <Link href="tel:  +1-000-000-0000" className="text-decoration-none">
-      <button className="animated-call-btn d-flex align-items-center gap-2 px-4 py-2 rounded-pill text-white">
+          <div className="ms-5">
+  <Link href="tel:   +44 80 8599 8705" className="text-decoration-none">
+      <button className="animated-call-btn d-flex align-items-center gap-2 px-4 py-2 rounded-pill text-white" style={{border: 'none',    background: 'red'}}>
         <FaPhoneVolume size={18} />
-        +1-000-000-0000
+        +44 80 8599 8705
       </button>
   </Link>
-</div> */}
+</div>
         </Navbar.Collapse>
       </Container>
     </Navbar>

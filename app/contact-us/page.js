@@ -23,11 +23,11 @@ const page = () => {
                                 <ul class="list-unstyled">
                                     <li class="mb-3">
                                         <strong>Phone:</strong> <br />
-                                        <a href="tel:+185549734560" class="text-decoration-none text-dark">+1-855-497-34560</a>
+                                        <a href="tel:+44 80 8599 8705" class="text-decoration-none text-dark"> +44 80 8599 8705</a>
                                     </li>
                                     <li class="mb-3">
                                         <strong>Email:</strong> <br />
-                                        <a href="mailto:info@flightreservationshub.com" class="text-decoration-none text-dark">info@flightreservationshub.com</a>
+                                        <a href="mailto:info@flightsclicks.com" class="text-decoration-none text-dark">info@flightsclicks.com</a>
                                     </li>
                                     <li class="mb-0">
                                         <strong>Address:</strong> <br />

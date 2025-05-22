@@ -31,7 +31,7 @@ const Footer = () => {
             <h5>Contact Us</h5>
             <ul className="list-unstyled">
               <li>Email: support@flightsclicks.com</li>
-              <li>Phone: <a href="tel:+1-000-000-0000" className='text-decoration-none text-white'>1-000-000-0000</a></li>
+              <li>Phone: <a href="tel: +44 80 8599 8705" className='text-decoration-none text-white'> +44 80 8599 8705</a></li>
               <li>Address:    <span>168 Great Portland Street <br /> London, W1W 5PF</span></li>
             </ul>
           </Col>
