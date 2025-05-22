@@ -234,4 +234,15 @@
   color: var(--tg-common-black);
 }
 
+
+
+@media (max-width: 480px){
+  .title {
+    color: #fff;
+    font-size: 28px;
+    font-weight: 700;
+    margin-top: 0rem
+  }
+}
+
    
