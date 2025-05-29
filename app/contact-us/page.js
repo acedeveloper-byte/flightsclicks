@@ -4,17 +4,15 @@ import Header from '@/components/Header'
 import React from 'react'
 import { metadata } from '../layout'
 
-const page = () => {
-    const generateMetaData = () => {
-    const metadata = {
+const generateMetaData = () => {
+    return {
         title: "Contact Us | flightsclicks.com",
         description: ""
     };
-    return metadata;
 };
 
-const meta = generateMetaData();
-
+const page = () => {
+    const meta = generateMetaData();
     return (
         <>
         <Header />
