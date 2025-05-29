@@ -4,9 +4,7 @@ const ExploreDeals = () => {
   return (
     <div>
        <div className="container text-center explore-deals" >
-      <h6 className="text-danger fw-bold">Hot Deals Of The Week</h6>
-      <h2 className="fw-bold text-danger mb-4">Top Explore Rate Deals</h2>
-
+     
       <div className="row justify-content-center mb-4">
         <div className="col-md-4 text-start">
           <img src="/images/destinations/alabama.jpg" alt="Alabama" className="img-fluid rounded" />
@@ -18,6 +16,9 @@ const ExploreDeals = () => {
 
         <div className="col-md-4 d-flex align-items-center">
           <div>
+             <h6 className="text-danger fw-bold">Hot Deals Of The Week</h6>
+      <h2 className="fw-bold text-danger mb-4">Top Explore Rate Deals</h2>
+
             <p>
               Travel has helped us to understand the meaning of life and it has helped us become better people.
               Each time we travel, we see the world with new eyes.
