@@ -22,10 +22,7 @@ const ExploreDeals = () => {
               Travel has helped us to understand the meaning of life and it has helped us become better people.
               Each time we travel, we see the world with new eyes.
             </p>
-            <p>
-              Travel has helped us to understand the meaning of life and it has helped us become better people.
-              Each time we travel, we see the world with new eyes.
-            </p>
+          
             <button className="btn btn-dark mt-3" style={{borderRadius: '0px'}}>View all Deals</button>
           </div>
         </div>
