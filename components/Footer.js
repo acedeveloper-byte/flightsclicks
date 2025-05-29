@@ -64,7 +64,7 @@ const Footer = () => {
         {/* Footer Bottom */}
         <div className="border-top mt-4 pt-3">
           <p className="text-white small mb-1 text-center">
-            <strong>Disclaimer:</strong> flightsclicks operates as an independent third-party travel agency with no direct affiliation with Aeromexico Airlines. 
+            <strong>Disclaimer:</strong> flightsclicks operates as an independent third-party travel agency with no direct affiliation with any Airlines. 
 
           </p>
           <hr />
