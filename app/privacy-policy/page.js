@@ -3,7 +3,18 @@ import Footer from '@/components/Footer'
 import Header from '@/components/Header'
 import React from 'react'
 
+const generateMetaData = () => {
+    return {
+        title: "Privacy Policy | flightsclicks.com",
+        description: ""
+    };
+};
+
 const page = () => {
+
+    const meta = generateMetaData();
+
+
       const html = `<h3><span style="font-weight: bold;">Privacy Policy - Flights Clicks</span></h3>
 <p><span style="font-weight: 400;">At Flights Clicks ("we", "our", "us"), accessible via flightsclicks.com, we aim at protecting your privacy. This Privacy Policy sets forth our practices regarding the collection, processing, disclosure, and protection of personal data obtained through your use of our website and related services.&nbsp;</span></p>
 <p><span style="font-weight: 400;">By accessing or using our website, users acknowledge that they have read and agree to the terms of this Privacy Policy. If you do not agree to this privacy policy, please discontinue your use of our site.</span></p>

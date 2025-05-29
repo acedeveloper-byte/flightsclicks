@@ -3,7 +3,17 @@ import Footer from '@/components/Footer'
 import Header from '@/components/Header'
 import React from 'react'
 
+const generateMetaData = () => {
+    return {
+        title: "Terms and Conditions | flightsclicks.com",
+        description: ""
+    };
+};
+
 const page = () => {
+
+      const meta = generateMetaData();
+
 
     const html  = `<h2><strong>Terms and Conditions - Flights Clicks&nbsp;</strong></h2>
 

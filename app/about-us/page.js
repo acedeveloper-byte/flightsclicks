@@ -2,8 +2,15 @@ import Banner from '@/components/common/Banner'
 import Footer from '@/components/Footer'
 import Header from '@/components/Header'
 import React from 'react'
+const generateMetaData = () => {
+    return {
+        title: "About Us | flightsclicks.com",
+        description: ""
+    };
+};
 
 const page = () => {
+    const meta = generateMetaData();
 
 
     const html = `<h2><strong>About Us - Flights Clicks</strong></h2>
