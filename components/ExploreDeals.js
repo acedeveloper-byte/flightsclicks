@@ -20,7 +20,7 @@ const ExploreDeals = () => {
       <h2 className="fw-bold text-danger mb-4">Top Explore Rate Deals</h2>
 
             <p>
-              Travel has helped us to understand the meaning of life and it has helped us become better people.
+              Travel has helped us to understand the rmeaning of life and it has helped us become better people.
               Each time we travel, we see the world with new eyes.
             </p>
           
