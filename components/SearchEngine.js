@@ -5,6 +5,7 @@ import Image from "next/image";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Row, Col, Form, Card, Dropdown, ButtonGroup, Button   } from 'react-bootstrap';
 import { FaMapMarkerAlt, FaCalendarAlt, FaSearch } from 'react-icons/fa';
+import CustomerCard from "./CustomerCard";
 
 
 
@@ -46,12 +47,20 @@ const SearchEngine = () => {
             </div>
 
             <div className="container main-form">
-                <div className="row">
-                    <div className="col-md-6">
-                        <h1 className="title">Travel the World for Less With Limited-Time Flight Deals!
+                 <section style={{ justifyContent: "center", alignItems: 'center' ,display: "flex" , marginTop : `10px`
+}} >
+
+         <h1 className="title">Travel the World for Less With Limited-Time Flight Deals!
                         </h1>
                         <p className="para-home">Soar to new destinations with us at low fares.</p>
-                    </div>
+
+          </section>
+                <div className="row">
+                    <div className="col-md-6">
+
+        <CustomerCard    />
+
+                                           </div>
 
                     <div className="col-md-6 ">
                         <Container className="my-3 form-layout-container">

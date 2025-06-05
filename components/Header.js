@@ -42,7 +42,7 @@ const Header = () => {
           {/* Right-Aligned Button */}
           <div className="ms-5">
   <Link href="tel:   +44 80 8599 8705" className="text-decoration-none">
-      <button className="animated-call-btn d-flex align-items-center gap-2 px-4 py-2 rounded-pill text-white" style={{border: 'none',    background: 'red'}}>
+      <button className="blinking-btn d-flex align-items-center gap-2 px-4 py-2 rounded-pill text-white" >
         <FaPhoneVolume size={18} />
         +44 80 8599 8705
       </button>
