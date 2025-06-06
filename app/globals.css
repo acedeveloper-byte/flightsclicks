@@ -453,3 +453,12 @@
     opacity: 1;
   }
 }
+
+
+@media (max-width: 768px) {
+  .main-form {
+    position: relative;
+    top: -29rem;
+    z-index: 9999;
+  }
+}
