@@ -36,7 +36,7 @@ const SearchEngine = () => {
 
     return (
         <>
-            <div style={{ position: "relative", height: "450px" }} className="home-page-image-layout">
+            <div style={{ position: "relative", height: "470px" }} className="home-page-image-layout">
                 {/* Background */}
                 <Image
                     src="/images/home-poster.jpg"
