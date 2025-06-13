@@ -8,7 +8,6 @@ import ExpediaModal from "@/components/Popup";
 import { useState } from "react";
 
 export default function Home() {
-  const [showModal, setShowModal] = useState(true);
 
   return (
     <>
@@ -18,7 +17,6 @@ export default function Home() {
 
       <DestCity />
       <Footer />
-      <ExpediaModal show={showModal} onClose={() => setShowModal(false)} />
 
     </>
   );
